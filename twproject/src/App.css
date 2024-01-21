@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Add styles for the Event component */
+
+/* Container styling */
+.Event {
+  padding: 20px; /* Add some padding to the entire component */
+}
+
+/* Title styling */
+h2 {
+  color: #61dafb;
+  margin-bottom: 20px;
+}
+
+/* Table styling */
+#postTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#postTable th, #postTable td {
+  padding: 10px;
+  border: 1px solid #61dafb;
+  text-align: left;
+}
+
+#postTable th {
+  background-color: #282c34;
+  color: white;
+}
+
+/* Add some spacing between table rows */
+#postTable tr:not(:first-child) {
+  margin-top: 10px;
+}
+
+/* Add a subtle background color to table rows on hover */
+#postTable tr:hover {
+  background-color: rgba(97, 218, 251, 0.1);
+}
+
+/* Style the "Event List" heading */
+h2 {
+  color: #61dafb;
+  font-size: 24px;
+}
+
+/* Apply some margin to the container holding the table */
+.Event > div {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: large;
+}
